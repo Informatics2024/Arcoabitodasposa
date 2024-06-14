@@ -50,7 +50,7 @@ In the following parts you will have information about the methodology, results 
 | LLM answers were very general and vague on knowledge. Gemini sometimes did not showed results. | Provide more information and use more prompting techniques. | 
 | Understand how to use Github to create an intuitive and userfriendly website. | Collectively trying with different templates as well as getting external feedback about the design.| 
 
-# [ABOUT THE CREATORS](./another-page3.html).
+# [ABOUT THE CREATORS](./about-us.html).
 ```
 Thank you for your attention. Hope you learned and enjoied.
 ```
