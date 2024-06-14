@@ -1,123 +1,54 @@
 ---
 layout: default
 ---
+# INTRODUCTION
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+This project is part of an academic assessment for the "Information and Technology Skills" course in the Master's program "Language, Society, and Communication" at the University of Bologna.
 
-[Link to another page](./another-page.html).
+Our project focuses on analyzing and using knowledge graphs from ARCO and Large Language Models, The selected ARCO ontology was about clothing description. 
 
-There should be whitespace between paragraphs.
+GOAL: to explore the characteristics of wedding dresses that are cataloged in the clothing description ontology. In particular, we focused on the materials and creators. After gathering information on these two elements, we decided to choose the creator Germana Marucelli as the focal point for the second part of our project. 
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+Germana Marucelli was an influential Italian fashion designer known for her innovative and elegant designs and she played a key role in establishing Italy as a global fashion hub.  
 
-# Header 1
+In the following parts you will have information about the methodology, results and analysis, discussion, conclusion and possible future developments.
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+# [METHODOLOGY](./another-page.html).
 
-## Header 2
-
-> This is a blockquote following a header.
+> The tools used for developing this project were: 
 >
-> When something is important enough, you do it even if the odds are not in your favor.
+*  GITHUB 
+![Github-Wikipedia](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/100px-GitHub_Invertocat_Logo.svg.png)
 
-### Header 3
+*  SPARQL  
+![SPARQL](sparkl.png) 
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
+*  ARCO  
+![ARCO](Arco.png)
+
+
+- LLMS
+  
+  - CHAT GPT
+![CHATGPT](CHATGPT.png) 
+ 
+  - GEMINI
+![GEMINI](gemini.svg) 
+  
+
+*  Class material 
+   ![ARCO](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Seal_of_the_University_of_Bologna.svg/100px-Seal_of_the_University_of_Bologna.svg.png)
+  
+
+# DISCUSSION
+
+| Problem        | Solution        | 
+|:-------------|:------------------|
+| dc:type abito da sposa showed a few results because it is too specific. | Filtering the results to obtain more. | 
+| LLM answers were very general and vague on knowledge. Gemini sometimes did not showed results. | Provide more information and use more prompting techniques. | 
+| Understand how to use Github to create an intuitive and userfriendly website. | Collectively trying with different templates as well as getting external feedback about the design.| 
+
+# [ABOUT THE CREATORS](./another-page3.html).
 ```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
+Thank you for your attention. Hope you learned and enjoied.
 ```
