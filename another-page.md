@@ -58,7 +58,7 @@ The overall style is classic and timeless.
 Overall, the wedding costume is a beautiful and elegant ensemble that would have been perfect for a special occasion.
 
 
-## GIACCA (IMAGE)
+### GIACCA (IMAGE)
 
 ```js
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -74,7 +74,7 @@ FILTER(REGEX(?label, "giacca, da nozze", "i"))
 }
 ```
 
-## CAPPELLO- (NONE)
+### CAPPELLO- (NONE)
 ```js
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX arco: <https://w3id.org/arco/ontology/arco/>
@@ -92,7 +92,7 @@ FILTER(REGEX(?label, “cappello da nozze”, “i”))
 ### Enriching on other clothes by Marucelli Germana exposed in the same museum
 
 
-## What are the other clothes by Marucelli Germana exposed in Galleria del costume, in Firenze?
+### Q: What are the other clothes by Marucelli Germana exposed in Galleria del costume, in Firenze?
 
 
 **- Chat GPT**
@@ -114,7 +114,7 @@ Search for News Articles and Museum Publications: Look for news articles or publ
 While these methods can't guarantee results, they offer possibilities for finding information about other Marucelli Germana garments in the museum's collection.
 
 
-### Can you give me some examples?
+### Q:Can you give me some examples?
 
 
 - **Chat GPT**
