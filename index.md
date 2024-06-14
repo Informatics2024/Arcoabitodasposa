@@ -1,6 +1,8 @@
 ---
 layout: default
 ---
+# ARCO ABITI DA SPOSA
+
 # INTRODUCTION
 
 This project is part of an academic assessment for the "Information and Technology Skills" course in the Master's program "Language, Society, and Communication" at the University of Bologna.
