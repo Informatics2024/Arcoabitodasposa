@@ -58,7 +58,7 @@ The overall style is classic and timeless.
 Overall, the wedding costume is a beautiful and elegant ensemble that would have been perfect for a special occasion.
 
 
-### GIACCA (IMAGE)
+### GIACCA 
 
 ```js
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
