@@ -6,6 +6,7 @@ layout: default
 
 ## FIND ALL THE ITEMS “abito da sposa” PRESENT IN THE CLOTHING DESCRIPTION ONTOLOGY 
 ```js
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX arco: <https://w3id.org/arco/ontology/arco/>
 PREFIX cis: <http://dati.beniculturali.it/cis/>
@@ -67,6 +68,7 @@ WHERE {
 
 ## Who are the creators of the wedding dresses?
 ```js
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX arco: <https://w3id.org/arco/ontology/arco/>
 PREFIX cis: <http://dati.beniculturali.it/cis/>
