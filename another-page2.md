@@ -15,7 +15,7 @@ SELECT ?ArtisticProperty ?label
 WHERE {
 ?ArtisticProperty rdf:type a-cd:Clothing ;
 rdfs:label ?label
-FILTER(REGEX(?label, “abito da sposa”, “i”))
+FILTER(REGEX(?label, "abito da sposa", "i"))
 }
 ```
 
@@ -88,19 +88,19 @@ ORDER BY ?creator
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX arco: <https://w3id.org/arco/ontology/arco/>
-PREFIX cis: <http://dati.beniculturali.it/cis/>
 PREFIX a-cd: <https://w3id.org/arco/ontology/clothing-description/>
 PREFIX dc: <http://purl.org/dc/elements/1.1/>
 PREFIX a-dd: <https://w3id.org/arco/ontology/denotative-description/>
+PREFIX agent: <https://w3id.org/arco/resource/Agent/>
 
 SELECT *
 WHERE {
   ?ArtisticProperty rdf:type a-cd:Clothing ;
                     rdfs:label ?label ;
-                    dc:creator <https://w3id.org/arco/resource/Agent/5c2b2a7e6b736bd45176a1270f1063db> ;
+                    dc:creator agent:5c2b2a7e6b736bd45176a1270f1063db ;
                     a-dd:hasMaterial ?material .
-  FILTER(REGEX(?label, "abito da sposa", "i"))
   ?material rdfs:label "seta" .
+  FILTER(REGEX(?label, "abito da sposa", "i"))
 }
 ```
 ## Which are the materials used by Marucelli Germana for the wedding dresses? - (Cotone and Lino)
@@ -108,16 +108,16 @@ WHERE {
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX arco: <https://w3id.org/arco/ontology/arco/>
-PREFIX cis: <http://dati.beniculturali.it/cis/>
 PREFIX a-cd: <https://w3id.org/arco/ontology/clothing-description/>
 PREFIX dc: <http://purl.org/dc/elements/1.1/>
 PREFIX a-dd: <https://w3id.org/arco/ontology/denotative-description/>
+PREFIX agent: <https://w3id.org/arco/resource/Agent/>
 
 SELECT *
 WHERE {
   ?ArtisticProperty rdf:type a-cd:Clothing ;
                     rdfs:label ?label ;
-                    dc:creator <https://w3id.org/arco/resource/Agent/5c2b2a7e6b736bd45176a1270f1063db> ;
+                    dc:creator agent:5c2b2a7e6b736bd45176a1270f1063db ;
                     a-dd:hasMaterial ?material .
   FILTER(REGEX(?label, "abito da sposa", "i"))
 }
@@ -127,18 +127,18 @@ WHERE {
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX arco: <https://w3id.org/arco/ontology/arco/>
-PREFIX cis: <http://dati.beniculturali.it/cis/>
 PREFIX a-cd: <https://w3id.org/arco/ontology/clothing-description/>
 PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX a-dd: <https://w3id.org/arco/ontology/denotative-description/>
+PREFIX agent: <https://w3id.org/arco/resource/Agent/>
 
 SELECT *
 WHERE {
   ?ArtisticProperty rdf:type a-cd:Clothing ;
                     rdfs:label ?label ;
-                    dc:creator <https://w3id.org/arco/resource/Agent/5c2b2a7e6b736bd45176a1270f1063db> .
-  FILTER(REGEX(?label, "da nozze", "i"))
+                    dc:creator agent:5c2b2a7e6b736bd45176a1270f1063db .
+  FILTER(REGEX(?label, "abito da sposa", "i"))
 OPTIONAL {?ArtisticProperty a-cd:depiction ?depiction }
 }
-
 ```
 [back](./)
